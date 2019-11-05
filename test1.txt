@@ -1,0 +1,25 @@
+using system
+
+namespace  generatePiramid {
+          
+		  class generatePiramid{
+		  
+				public static void main (string[] argv) {
+				     
+					 Console.WriteLine("Please enter number of stars:" );
+					 int count = Convert.toInt(Console.ReadLine());
+					 
+					  string starStr = String.Empty;
+					  
+					  for (int j = count; j > 0; j--) {
+					  
+					      for (int i =0 ; i < j; i++) {
+					          starStr[i] = '*';
+					      }
+						  Console.WriteLine ("starStr");
+						  starStr = String.Empty;
+					  }	  
+				}
+		  }
+
+}
